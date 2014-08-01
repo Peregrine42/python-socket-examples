@@ -22,11 +22,12 @@
  - go to /etc/network/interfaces
  - change to this:
     auto lo eth0
-    iface lo inet loopback
+ ```iface lo inet loopback
     iface eth0 inet static
         address 192.168.1.2
         netmask 255.255.255.0
         gateway 192.168.1.1
+        ``
 
 ###SSH to Raspberry Pi
  - username: raspberry
