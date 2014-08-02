@@ -35,3 +35,9 @@
  - username: raspberry
  - password: pi
  - ssh pi@192.168.2.1
+
+###Http Server
+My raspberry pi is running the python SimpleHTTPServer. This should be accessible from:
+```
+    192.168.1.2:8000
+```
